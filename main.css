@@ -1,0 +1,76 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+  
+.container{
+    background-color: #33333386;
+    color: #fff;
+}
+  header {
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .hero {
+    background: url('./img/bg.jpg') no-repeat center center/cover;
+    height: 400px;
+    color: white;
+    text-align: center;
+    padding-top: 150px;
+  }
+  
+  section {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .service {
+    margin: 20px;
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+  }
+  
+  .gallery-images img {
+    width: 30%;
+    margin: 10px;
+  }
+  
+  form {
+    width: 300px;
+    margin: 20px auto;
+  }
+  
+  form input, form button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
